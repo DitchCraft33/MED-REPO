@@ -1,0 +1,281 @@
+## Tactical Field Care
+
+Care when no longer under effective hostile fire
+
+[ MARCH-PAWS is the assessment and treatment sequence for Tactical Field Care. ]
+
+# MARCH Protocol
+
+M - Massive Hemorrhage
+A - Airway
+R - Respiration
+C - Circulation
+H - Hypothermia/Head
+
+# Then PAWS
+
+P - Pain management
+A - Antibiotics
+W - Wounds (inspect and dress)
+S - Splinting
+
+# Initial TFC Actions
+
+[ ] Establish security perimeter IAW tactical SOPs
+[ ] Consolidate casualties in CCP
+[ ] Conduct triage to identify priority
+[ ] Casualties with altered mental status: disarm, secure weapons and comms
+[ ] Delegate minor injuries to RFRs/ARFRs
+[ ] Communicate casualty status and MEDEVAC requirements to C2
+
+
+
+## M > Massive Hemorrhage
+
+# Hemorrhage Control
+
+[ ] Assess for unrecognized hemorrhage and control all life-threatening bleeding
+[ ] Expose wound to assess tourniquet necessity
+[ ] Apply CoTCCC-recommended limb tourniquet if indicated
+[ ] Use hemostatic dressing for compressible hemorrhage not amenable to tourniquet
+[ ] Apply junctional tourniquet for groin/axilla bleeding
+
+# Tourniquet Reassessment
+
+- Expose wound - determine if TQ still needed
+- If bleeding not controlled: tighten TQ or add second side-by-side
+- Mark time of application on TQ and casualty card
+
+[ Conversion: Consider in <2 hours if: ]
+
+- Casualty NOT in shock
+- Can monitor wound closely
+- NOT an amputation
+- Do NOT remove if TQ in place >6 hours.
+
+# Hemostatic Dressings
+
+Product				                  NSN
+
+Combat Gauze Z-Fold		              6510-01-562-3325
+Celox Gauze Z-fold		              6510-01-623-9910
+ChitoGauze			                  6510-01-591-7740
+X-Stat (cannot remove in field)	      6510-01-644-7335
+
+# Junctional Hemorrhage
+
+For groin, axilla, or neck bleeding not amenable to limb tourniquet:
+
+- Combat Ready Clamp (CRoC) - NSN 6515-01-589-9135
+- SAM Junctional Tourniquet - NSN 6515-01-618-7475
+- JETT 			            - NSN 6515-01-616-5841
+
+# Pelvic Binder
+
+Apply for suspected pelvic fracture with:
+
+- Pelvic pain or instability
+- Major lower limb amputation/near amputation
+- Unconsciousness or shock with pelvic MOI
+
+
+
+## A > Airway
+
+# Airway Management
+
+Conscious patient talking normally = airway intact.
+
+Unconscious patient: tongue is most common obstruction.
+
+# Unconscious WITHOUT Obstruction
+
+[ ] Chin lift or jaw thrust maneuver
+[ ] Nasopharyngeal airway (NPA)
+[ ] Place in recovery position
+
+# Airway Obstruction or Impending
+
+[ ] Allow conscious casualty to assume position that protects airway
+[ ] Chin lift or jaw thrust
+[ ] NPA (contraindicated in suspected basilar skull fracture)
+[ ] Suction if available
+[ ] Place unconscious casualty in recovery position
+
+[ If above measures fail: Surgical cricothyroidotomy ]
+
+# NPA Sizing
+
+- Measure: tip of nose to earlobe
+- Common adult sizes: 28F (7.0mm), 32F (8.0mm)
+- Lubricate and insert bevel toward septum
+
+# Recovery Position
+
+[ ] Roll casualty onto side (injured side down if possible)
+[ ] Flex upper knee for stability
+[ ] Position upper arm to support head
+[ ] Allows drainage, prevents aspiration
+
+[ Spinal stabilization is NOT necessary for casualties with penetrating trauma. ]
+
+
+
+## R > Respiration
+
+Progressive respiratory distress + known/suspected torso trauma = consider tension pneumothorax
+
+# Tension Pneumothorax Signs
+
+- Difficulty/worsening breathing after chest/abdominal injury
+- Decreased SpO2 ( Hypoxemia -  Occurs when blood oxygen falls below 95% )
+- Decreased breath sounds on affected side
+- Tracheal deviation ( Late Sign - Trachea moves Away from Collapsed Lung, Req Immediate Needle Decompression )
+- JVD ( Late Sign - Jugular Vein Distention, Swelling caused by backup of blood )
+- Cyanosis ( bluish discoloration, caused by high levels of deoxygenated hemoglobin )
+
+# Needle Chest Decompression
+
+14-gauge, 3.25" needle/catheter
+
+- Primary: 5th ICS, Anterior Axillary Line
+- Alternate: 2nd/3rd ICS, Midclavicular Line
+
+[ Ensure NOT medial to nipple line and NOT directed toward heart. ]
+
+# Open/Sucking Chest Wound
+
+[ ] Apply vented chest seal (HyFin, SAM, Bolin)
+[ ] If no vented seal: apply non-vented and monitor closely
+[ ] If breathing worsens: burp seal or perform NCD
+
+[ Initiate pulse oximetry. Maintain SpO2 >90%, especially with moderate/severe TBI. ]
+
+
+
+## C > Circulation
+
+# Shock Indicators (Field Assessment):
+
+- Altered mental status (without TBI)
+- Weak or absent radial pulse
+- Capillary refill >2 seconds
+- Cold, pale, clammy skin
+
+# Pulse Pressure Estimation
+
+Pulse Present	Est. SBP
+
+Radial		~80 mmHg
+Femoral		~70 mmHg
+Carotid		~60 mmHg
+
+# IV/IO Access
+
+- Start 18-gauge IV or saline lock
+- If IV not obtainable: use IO (humerus preferred)
+- Do NOT delay evacuation for IV access unless lifesaving
+
+# TXA (Tranexamic Acid)
+
+- 1-2g IV/IO flush ASAP
+- DO NOT give >3 hours post injury
+
+Criteria: Hemorrhagic shock, amputations, penetrating torso, severe bleeding, pelvic fracture
+
+# Fluid Resuscitation Priority
+
+[ ] Whole Blood (warmed) - Preferred
+[ ] 1:1:1 Components (Plasma:RBCs:Platelets)
+[ ] LTOWB / ROLO
+[ ] Freeze-Dried Plasma
+[ ] Hextend 500ml bolus
+[ ] Lactated Ringers / Plasma-Lyte A
+
+# Resuscitation Endpoints:
+
+- Palpable radial pulse
+- Improved mental status
+- SBP 90-100 mmHg (hemorrhagic shock)
+- SBP >110 mmHg (TBI)
+
+
+
+## H > Hypothermia Prevention
+
+The Lethal Triad: Hypothermia + Acidosis + Coagulopathy = Death
+
+# Prevention Measures
+
+- Minimize environmental exposure
+- Keep protective equipment on if feasible
+- Replace wet clothing
+- Get casualty onto insulated surface ASAP
+- Use HPMK (Hypothermia Prevention Management Kit)
+- If unavailable: dry blankets, poncho liner, sleeping bag
+- Warm IV fluids preferred
+
+# HPMK Components
+
+- Ready-Heat Blanket (apply to torso, NOT directly on skin)
+- Heat-Reflective Shell (HRS)
+- Self-heating fluid warmer
+
+# Head Injury / TBI
+
+- Maintain SBP >90 mmHg (target >110 mmHg)
+- Maintain SpO2 >90%
+- Prevent hypothermia
+- Elevate head 30° if no spinal concern
+- Document GCS/AVPU
+
+[ Herniation Signs: Asymmetric pupil dilation, fixed dilated pupil, extensor posturing, widening pulse pressure ]
+[ Treatment: 250ml 3% or 5% hypertonic saline bolus, elevate head 30°, hyperventilate at 20 breaths/min ]
+
+
+
+## PAWS
+
+# P - Pain Management
+
+Mild-Moderate (able to fight):
+
+- Tylenol 650mg x2 PO q8h + Meloxicam 15mg PO daily
+
+Moderate-Severe (NOT in shock):
+
+- OTFC 800mcg transmucosal (have Naloxone ready)
+
+Moderate-Severe (IN shock):
+
+- Ketamine 50mg IM/IN or 20mg slow IV/IO
+
+# A - Antibiotics
+
+Recommended for ALL open combat wounds.
+
+- If PO: Moxifloxacin 400mg daily
+- If unable PO: Ertapenem 1g IV/IM daily
+
+# W - Wounds
+
+- Inspect and dress all known wounds
+- Full body sweep for additional wounds
+- Document on casualty card
+
+# S - Splinting
+
+- Splint fractures and dislocations
+- Check pulses before and after splinting
+- Pad bony prominences
+- Immobilize joint above and below fracture
+
+# Burns
+
+- Facial burns: aggressively monitor airway (edema risk)
+- Estimate TBSA (Rule of Nines)
+- Cover with dry, sterile dressings
+- >20% TBSA: IV fluids per Rule of Ten
+
+Rule of Ten: %TBSA x 10ml/hr (40-80kg adult)
+Add 100ml/hr for every 10kg above 80kg

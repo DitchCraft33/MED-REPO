@@ -1,0 +1,175 @@
+## MEDEVAC
+
+Nine Liner
+MIST Report
+Triage
+Vitals + GCS
+NSNs 
+
+## 9-Line MEDEVAC Request
+
+Line	Content			Example
+
+1	Location (Grid)		11SNT 79652 89123
+2	Callsign & Freq		DUSTOFF 7, 36.250
+3	# by Precedence		2A, 1B
+4	Special Equipment	A-None
+5	# by Type		2L, 1A
+6	Security at PZ		N-No enemy
+7	PZ Marking		    C-Smoke (green)
+8	Nationality		    A-US Mil
+9	Terrain/Obstacles	Open, wires S
+
+# Line 3 - Precedence
+
+A   - Urgent		    Within 2 hours
+A-S - Urgent Surgical	Within 2 hours, needs surgery
+B   - Priority		    Within 4 hours
+C   - Routine		    Within 24 hours
+
+# Line 4 - Special Equipment
+
+A: None
+B: Hoist
+C: Extraction equipment
+D: Ventilator
+
+# Line 5 - Type
+
+L: Litter
+A: Ambulatory
+
+# Line 6 - Security
+
+N: No enemy
+P: Possible enemy
+E: Enemy in area
+X: Armed escort required
+
+
+
+## MIST Report Format
+
+Letter	Content
+
+M	Mechanism of Injury + Time
+I	Injuries found
+S	Signs/Symptoms (vitals, mental status)
+T	Treatments given (TQ time, meds, etc.)
+
+# Example
+
+M: GSW to right thigh, 1423 hrs
+
+I: Through-and-through right thigh, no bone involvement
+
+S: A+Ox4, HR 98, BP 118/72, SpO2 98%
+
+T: TQ right thigh 1425, wound packed w/ combat gauze, 1g TXA IV
+
+
+
+## Triage 
+
+# IMMEDIATE (T1) - RED
+
+Requires immediate intervention. Will die without treatment.
+
+- Airway obstruction
+- Tension pneumothorax
+- Massive hemorrhage
+- Shock
+
+# DELAYED (T2) - YELLOW
+
+Needs treatment but can wait without life threat.
+
+- Large wounds without shock
+- Fractures (stable)
+- Burns <20% TBSA
+
+# MINIMAL (T3) - GREEN
+
+"Walking wounded" - minor injuries.
+
+- Minor lacerations
+- Sprains
+- Small burns
+
+# EXPECTANT (T4) - BLACK
+
+Injuries incompatible with survival given resources.
+
+- Massive head trauma with brain matter
+- Burns >85% TBSA
+- Prolonged cardiac arrest
+
+[ Still provide comfort measures. ]
+
+
+
+## Vitals
+
+# Normal Adult Vitals
+
+HR	    60-100 bpm
+RR	    12-20/min
+BP	    90-120 / 60-80
+SpO2	95-100%
+Temp	97.8-99.1°F // 36.5-37.2°C
+
+# AVPU Scale
+
+A - Alert
+V - Responds to Voice
+P - Responds to Pain
+U - Unresponsive
+
+# Glasgow Coma Scale
+
+Eye		        Verbal			    Motor
+
+4-Spontaneous	5-Oriented		    6-Obeys
+3-To voice	    4-Confused		    5-Localizes
+2-To pain	    3-Inappropriate		4-Withdraws
+1-None		    2-Incomprehensible	3-Flexion
+		        1-None			    2-Extension
+					                1-None
+
+Total: 3-15 | Severe: 3-8 | Moderate: 9-12 | Mild: 13-15
+
+
+
+## NSNs
+
+# Tourniquets
+
+Item		NSN
+
+CAT Gen 7	6515-01-521-7976
+SOFTT-W		6515-01-530-7015
+SAM XT		6515-01-680-1797
+TX2/TX3		6515-01-699-4207
+
+# Hemostatic Agents
+
+Item			    NSN
+
+Combat Gauze Z-Fold	6510-01-562-3325
+Celox Gauze		    6510-01-623-9910
+ChitoGauze		    6510-01-591-7740
+X-Stat			    6510-01-644-7335
+
+# Chest Seals
+
+Item			    NSN
+HyFin Vent		    6510-01-632-4628
+SAM Chest Seal		6510-01-644-5308
+Bolin Chest Seal	6510-01-643-2507
+
+# Airway
+
+Item		NSN
+
+CricKey		6515-01-640-6701
+NPA 28Fr	6515-01-204-4041
