@@ -1,0 +1,51 @@
+{
+  "MARCH_PAWS": {
+    "M": {"desc": "Massive Haemorrhage", "options": "(T)ourniquet , (P)ack Wound , (D)irect Pressure , (Enter) N/A"},
+    "A": {"desc": "Airway", "options": "(N)PA , (J)aw Thrust , (S)uction , (Enter) N/A"},
+    "R": {"desc": "Respiration", "options": "(C)hest Seal , (N)eedle D , (O)cclusive , (Enter) N/A"},
+    "C": {"desc": "Circulation", "options": "(P)elvic Binder , (I)V/IO , (F)luids , (Enter) N/A"},
+    "H": {"desc": "Head / Hypothermia", "options": "(A)VPU Check , (B)lanket , (H)PMK , (Enter) N/A"},
+    "P": {"desc": "Pain Management", "options": "(K)etamine , (F)entanyl , (M)orphine , (Enter) N/A"},
+    "A_": {"desc": "Antibiotics", "options": "(M)oxi , (E)rtapenem , (Enter) N/A"},
+    "W": {"desc": "Wounds / Burns", "options": "(D)ry Dressing , (W)et Dressing , (A)bdominal , (Enter) N/A"},
+    "S": {"desc": "Splinting", "options": "(S)am Splint , (I)mprovisation , (Enter) N/A"}
+  },
+  "SCENARIOS": [
+    { "sitrep": "EASY : Arterial Spray from the Right Arm ", "solution": {"M": "t", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Massive Bleed on Extremity ... TQ Immediately " },
+    { "sitrep": "EASY : Casualty Unconscious ... Snoring , No Bleeding ", "solution": {"M": "", "A": "n", "R": "", "C": "", "H": "a", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Snoring + Unconscious ... NPA and AVPU Checks " },
+    { "sitrep": "EASY : Sucking Chest Wound from Shrapnel ", "solution": {"M": "", "A": "", "R": "c", "C": "", "H": "", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Open Chest Wound ... Occlusive Chest Seal " },
+    { "sitrep": "EASY : Casualty is Shivering in the Rain after a Fall ", "solution": {"M": "", "A": "", "R": "", "C": "", "H": "b", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Prevent Hypothermia ... " },
+    { "sitrep": "EASY : Simple Fracture on Forearm ... Stable ", "solution": {"M": "", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "", "W": "", "S": "s"}, "hint": "Standard Extremity Fracture ... Sam Splint." },
+    { "sitrep": "EASY : Minor GSW to Calf ... Bleeding is Slow and Dark ", "solution": {"M": "d", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "m", "W": "", "S": ""}, "hint": "Non-Arterial Bleed ... Direct Pressure + Antibiotics " },
+    { "sitrep": "EASY : Deep Laceration to the Shoulder ... No TQ Possible ", "solution": {"M": "p", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "m", "W": "", "S": ""}, "hint": "Junctional Bleed ( Shoulder ) ... Wound Packing " },
+    { "sitrep": "EASY : Face Burned by Flash Bang ... Alert and Talking ", "solution": {"M": "", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "", "W": "w", "S": ""}, "hint": "Flash Burns with NO Airway Distress ... Wet Dressings " },
+    { "sitrep": "EASY : Casualty has Broken Ankle , Moderate Pain ... Alert ", "solution": {"M": "", "A": "", "R": "", "C": "", "H": "", "P": "f", "A_": "", "W": "", "S": "s"}, "hint": "Stable Pain Management ... Fentanyl " },
+    { "sitrep": "EASY : Small GSW to the Abdomen ... Conscious ", "solution": {"M": "", "A": "", "R": "", "C": "", "H": "", "P": "", "A_": "e", "W": "a", "S": ""}, "hint": "Abdominal Wounds ... Abdominal Dressing + Ertapenem " },
+
+    { "sitrep": "MEDIUM : GSW to Groin with Heavy bleeding ... Casualty is Drowsy ", "solution": {"M": "p", "A": "", "R": "", "C": "i", "H": "a", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "Junctional Bleed + Altered Mental Status ... Packing , IV , Ketamine " },
+    { "sitrep": "MEDIUM : Blast victim Missing Left Foot ... Breathing Fast and Shallow ", "solution": {"M": "t", "A": "", "R": "c", "C": "f", "H": "h", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "TQ for Amputation . Chest Seal for Respiratory Rate ( Frag ) , Ketamine for Shock " },
+    { "sitrep": "MEDIUM : Gurgling Respirations , Gunshot to the Jaw ... Conscious ", "solution": {"M": "", "A": "j", "R": "", "C": "", "H": "a", "P": "", "A_": "m", "W": "d", "S": ""}, "hint": "Jaw thrust // leaning Forward for Airway . Dry dressing for Facial Wounds " },
+    { "sitrep": "MEDIUM : Suspected Pelvic Fracture ... Weak Radial Pulse ", "solution": {"M": "", "A": "", "R": "", "C": "p", "H": "b", "P": "f", "A_": "e", "W": "", "S": ""}, "hint": "Pelvic Binder + Blanket for Shock Prevention " },
+    { "sitrep": "MEDIUM : 30% Body Burns ... Shivering ... Extreme Pain ", "solution": {"M": "", "A": "", "R": "", "C": "f", "H": "b", "P": "k", "A_": "m", "W": "d", "S": ""}, "hint": "Large Burns ... Dry Dressings . Prevent Heat Loss . Ketamine for Pain " },
+    { "sitrep": "MEDIUM : Penetrating Chest Wound ... Trachea is Shifted to the Side ", "solution": {"M": "", "A": "", "R": "n", "C": "i", "H": "a", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "Tracheal Deviation = Tension Pneumothorax ... Perform Needle D." },
+    { "sitrep": "MEDIUM : Fall with Head Injury ... Pupillary Response Unequal ", "solution": {"M": "", "A": "j", "R": "", "C": "", "H": "a", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Head Injury = Monitor AVPU closely . Manual Airway Only " },
+    { "sitrep": "MEDIUM : GSW to the Arm ... TQ Applied but Bleeding Continues ", "solution": {"M": "t", "A": "", "R": "", "C": "", "H": "h", "P": "f", "A_": "m", "W": "", "S": "s"}, "hint": "Bleeding through First TQ ... Apply a Second > 'Side-by-Side' TQ " },
+    { "sitrep": "MEDIUM : Shrapnel to the Thigh ... Massive Bleed and Casualty is Screaming ", "solution": {"M": "t", "A": "", "R": "", "C": "", "H": "b", "P": "f", "A_": "m", "W": "", "S": "s"}, "hint": "TQ First ... Fentanyl is SAFE if they are Screaming ( stable vitals ) " },
+    { "sitrep": "MEDIUM : Chemical Burn to Eyes and Skin ... Respiratory Distress ", "solution": {"M": "", "A": "n", "R": "o", "C": "i", "H": "b", "P": "k", "A_": "", "W": "w", "S": ""}, "hint": "NPA for Airway , Occlusive for Chest , Wet Dressings for Chemical Burns " },
+
+    { "sitrep": "HARD : Double Amputee ( Legs ) ... No Radial Pulse and Gasping for Air ", "solution": {"M": "t", "A": "n", "R": "n", "C": "i", "H": "h", "P": "k", "A_": "m", "W": "d", "S": ""}, "hint": "Aggressive MARCH : TQs , NPA, Needle D ( for Gasping ) , Fluids for Shock " },
+    { "sitrep": "HARD : GSW to Chest and Groin ... Chest Seal Applied but Failing ", "solution": {"M": "p", "A": "", "R": "n", "C": "f", "H": "b", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "Pack the Groin . Needle D for the FAILING Chest Seal . Ketamine for Pain " },
+    { "sitrep": "HARD : Near-Drowning , Blast Victim ... Cold to Touch , Gurgling ", "solution": {"M": "", "A": "s", "R": "o", "C": "i", "H": "h", "P": "", "A_": "e", "W": "", "S": ""}, "hint": "Suction the Airway . HPMK for Hypothermia . Fluids for Circulation " },
+    { "sitrep": "HARD : Multiple Shrapnel Wounds ... Abdomen Evisceration , 40% Burns ", "solution": {"M": "d", "A": "n", "R": "", "C": "i", "H": "b", "P": "k", "A_": "e", "W": "a", "S": ""}, "hint": "Evisceration = Abdominal Dressing . Burns = Blanket + Dry Dressing " },
+    { "sitrep": "HARD : Blunt Force to Chest , Paradoxical Breathing ( Flail Chest ) ... Unconscious.", "solution": {"M": "", "A": "n", "R": "o", "C": "f", "H": "a", "P": "", "A_": "", "W": "", "S": ""}, "hint": "Flail Chest NEEDS an Occlusive // Bulky Bressing . NPA/AVPU for Unconsciousness " },
+    { "sitrep": "HARD : GSW to the Buttock ... Deep Internal Bleeding , Casualty is Pale ", "solution": {"M": "p", "A": "", "R": "", "C": "i", "H": "h", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "Pack the Wound ( Junctional ) . IV/HPMK for Impending Shock " },
+    { "sitrep": "HARD : Crush Injury ( Leg trapped 2 hours ) ... Dark Urine Noted ", "solution": {"M": "t", "A": "", "R": "", "C": "f", "H": "b", "P": "k", "A_": "", "W": "", "S": "s"}, "hint": "TQ BEFORE Release . Fluids for Crush Syndrome . Ketamine for Pain " },
+    { "sitrep": "HARD : Snake Bite Lower Limb ... Swelling Rapidly ", "solution": {"M": "d", "A": "", "R": "", "C": "i", "H": "b", "P": "f", "A_": "m", "W": "w", "S": "s"}, "hint": "Pressure Immobilization . Fluids and Splinting . Fentanyl for Pain " },
+    { "sitrep": "HARD : Head Trauma + Extremity Bleed ... BP 80/40 , Pupil Dilated ", "solution": {"M": "t", "A": "n", "R": "", "C": "f", "H": "a", "P": "", "A_": "m", "W": "", "S": ""}, "hint": "Aggressive Fluids , Resuscitation iot Maintain MAP for Head Injury " },
+    { "sitrep": "HARD : IED Blast ... Blinded , Shrapnel in Neck , High Anxiety ", "solution": {"M": "p", "A": "n", "R": "", "C": "", "H": "a", "P": "k", "A_": "m", "W": "d", "S": ""}, "hint": "Pack Neck Wounds . Ketamine ( LOW Dose ) for 'Chemical Restraint' ... Anxiety " },
+
+    { "sitrep": "NINJA : Mass Cas ... Victim 1 : Amputee, NO Pulse . Victim 2 : Screaming , GSW Leg ", "solution": {"M": "t", "A": "n", "R": "", "C": "i", "H": "h", "P": "k", "A_": "m", "W": "", "S": ""}, "hint": "Focus on the Silent Amputee First ... TQ , NPA , Fluids Immediately " },
+    { "sitrep": "NINJA : GSW Torso , Chest Seal in Place . Cyanosis . No Radial Pulse . Cold // Clammy ", "solution": {"M": "", "A": "n", "R": "n", "C": "i", "H": "h", "P": "k", "A_": "e", "W": "", "S": ""}, "hint": "Total System Failure ... Needle D ( Respiration ) + IO Fluids ( Circulation ) = Life-Saving " },
+    { "sitrep": "NINJA : 60% Burns . Blast Lung . Pelvic Crush . Unconscious ", "solution": {"M": "", "A": "n", "R": "o", "C": "p", "H": "h", "P": "k", "A_": "e", "W": "d", "S": ""}, "hint": "TFC Challenge : NPA , Occlusive , Binder , HPMK , Ketamine " }
+  ]
+}
