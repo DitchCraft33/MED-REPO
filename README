@@ -34,9 +34,12 @@ Step-by-step field procedures:
 - Tourniquet Application & Conversion - Hemorrhage control
 
 
-# TAC MED Trainers
+# TACMED Trainer
 
-CLI Focused with JSON Databases.
+CLI Focused with JSON Databases:
 
-- MARCH-PAWS 
-- CAS-EVAC 
+- Drill      ( MARCH-PAWS Flow Drill )
+- Stress     ( MARCH-PAWS with Timer )
+- 9-Liner    ( 9 Line Requests )
+- Procedures ( Referance // Slates )
+
